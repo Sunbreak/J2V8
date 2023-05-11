@@ -1,7 +1,7 @@
 
 echo "Preparing Debian packages..."
 apt-get -qq update && \
-	DEBIAN_FRONTEND=noninteractive apt-get -qq install -y \
+	DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --force-yes \
 	git \
 	unzip \
 	gcc gcc-multilib \
